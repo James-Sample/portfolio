@@ -3,5 +3,47 @@
     <head>
         <title>Contact</title>
     </head>
-    <body></body>
+    <body>
+        <header>
+            <h1>
+                How To Reach Me
+            </h1>
+            <section>
+                <p>
+                    If you'd like to reach me for any reason, please fill out the following form and I will be in touch as soon as possible
+                </p>
+            </section>
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <label>
+                        Name:
+                    <input name="name" type="text">
+                    </label>
+                    <label>
+                        Email:
+                    <input name="email" type="email">
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label>
+                        Please select your reason for contacting me:
+                        <select name="reason">
+                            <option value="" disabled selected hidden>Choose one</option>
+                            <option value="work">Work</option>
+                            <option value="leisure">Leisure</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <label>
+                        Please leave me a short message
+                        <textarea name="message" placeholder="I'd like to discuss..."></textarea>
+                    </label>
+                </fieldset>
+            </form>
+        </main>
+    </body>
 </html>
