@@ -44,3 +44,7 @@ nav:visited {
 a[data-anchor="social"] {
     color: red;
 }
+
+.caption {
+    font-style: italic;
+}
