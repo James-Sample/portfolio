@@ -1,20 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>
             James Sample
         </title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
         <header>
             <nav>
                 <a href="./pages/contact.html" target="_blank">Contact</a>
                 <a href="./pages/projects.html" target="_blank">Projects</a>
+                <a href="https://www.linkedin.com/in/jamesrgsample/" target="_blank" data-anchor="social">LinkedIn</a>
             </nav>
-            <h1>James Sample</h1>
+            <h1 id="myName">James Sample</h1>
             <h2>Developer in training</h2>
             <figure>
-                <img src="images/image1.jpg" alt="Me drinking coffee" />
+                <img src="images/image1.jpg" alt="Me drinking coffee" class="infopic" />
                 <br />
                 <figcaption>
                     Having a coffe in Carcasonne
@@ -23,11 +26,15 @@
         </header>
         <br />
         <main>
-            <section>
+            <div id="about-me">
                 <h3>About Me</h3>
-            </section>
-            <p>I'm a Stockport based developer in training</p>
-            <p>I want to do something technical</p>
+                <img class="profile-pic" src ="https://picsum.photos/200/300" alt="a picture of me" />
+                <p>I'm a Stockport based developer in training</p>
+                <p>I want to do something technical, programming is the perfect fit</p>
+                <div>
+                    <p>By March 2023 I will be ready for my first developer role</p>
+                </div>
+            </div>
             <section>
                 <h3>Qualities</h3>
                 <ol>
@@ -45,21 +52,21 @@
                 </ul>
             </section>
             <figure>
-                <img src="./images/testpic.jpg" alt="James and Charlotte hiking">
+                <img src="./images/testpic.jpg" alt="James and Charlotte hiking" class="infopic" />
                 <br />
                 <figcaption>
                     A picture from my most recent holiday to Italy
                 </figcaption>
             </figure>
             <figure>
-                <img src="./images/image3.jpg" alt="running up that hill" />
+                <img src="./images/image3.jpg" alt="running up that hill" iclass="infopic" />
                 <br />
                 <figcaption>
                     Me running up a hill
                 </figcaption>
             </figure>
             <figure>
-                <img src="./images/image2.jpg" alt="Old me" />
+                <img src="./images/image2.jpg" alt="Old me" class="infopic" />
                 <br />
                 <figcaption>
                     Me in the future?

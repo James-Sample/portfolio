@@ -2,9 +2,14 @@
 <html>
     <head>
         <title>Contact</title>
+        <link rel="stylesheet" href="../styles.css" type="text/css">
     </head>
     <body>
         <header>
+            <nav>
+                <a href="./projects.html" target="_blank">Projects</a>
+                <a href="../index.html" target="_blank">Index</a>
+            </nav>
             <h1>
                 How To Reach Me
             </h1>
@@ -16,7 +21,7 @@
         </header>
         <main>
             <form>
-                <fieldset>
+                <fieldset class="formpart">
                     <label>
                         Name:
                     <input name="name" type="text">
@@ -26,7 +31,7 @@
                     <input name="email" type="email">
                     </label>
                 </fieldset>
-                <fieldset>
+                <fieldset class="formpart">
                     <label>
                         Please select your reason for contacting me:
                         <select name="reason">
@@ -37,7 +42,7 @@
                         </select>
                     </label>
                 </fieldset>
-                <fieldset>
+                <fieldset class="formpart">
                     <label>
                         Please leave me a short message
                         <textarea name="message" placeholder="I'd like to discuss..."></textarea>

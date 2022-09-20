@@ -1,0 +1,46 @@
+
+h1 {
+    color: red;
+}
+
+.formpart {
+    background-color: aqua;
+}
+
+#myname {
+    font-size: 30px;
+}
+
+#about-me > p {
+    color: blue;
+}
+
+.profile-pic + p {
+    font-size: 20px;
+}
+
+#box:checked + label {
+    outline: 3px solid green;
+}
+
+nav:hover {
+    font-size: 20px;
+}
+
+nav:visited {
+    color: blue;
+}
+
+.infopic {
+    height: 100%;
+    width: 100%;
+    max-height: 500px;
+    max-width: 500px;
+    object-fit: contain;
+    margin-left: 0cm;
+    padding-left: 0cm;
+} 
+
+a[data-anchor="social"] {
+    color: red;
+}
