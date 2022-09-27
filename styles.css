@@ -1,7 +1,19 @@
 body {
     background-color: rgba(208, 169, 125, 0.1);
+    background-image: url(https://ibb.co/Jds8sT4);
     font-family: Arial, Helvetica, sans-serif;
 }
+
+#tophalf {
+    background-image: url(https://i.ibb.co/bL7ZVp1/testpic.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    filter: grayscale(70%);
+    max-width: 75rem;
+    max-height: 75rem;
+}
+
+
 
 .top-nav {
     background-color: lightcoral;
@@ -11,6 +23,7 @@ h1 {
     font-size: 4em;
     font-weight: bold;
     text-align: center;
+    color: black;
 }
 
 h2 {
