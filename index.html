@@ -5,79 +5,54 @@
             James Sample
         </title>
         <meta charset="utf-8" />
-        <link rel="stylesheet" type="text/css" href="styles.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
     <body>
-        <section background="./image1" id="tophalf">
-        <header>
-            <nav class="top-nav">
-                <a href="../index.html">Index</a>
-                <a href="./pages/contact.html" target="_blank">Contact</a>
-                <a href="./pages/projects.html" target="_blank">Projects</a>
-                <a href="./cv.html" target="_blank">CV</a>
-                <a href="https://www.linkedin.com/in/jamesrgsample/" target="_blank" data-anchor="social">LinkedIn</a>
-            </nav>
-            <h1 id="myName">James Sample</h1>
-            <h2>Frontend Developer in Training</h2>
-        </header>
-        <br />
-        <main>
-            <div id="about-me">
-                <h3>About Me</h3>
-                <figure>
-                    <img src="images/image1.jpg" alt="Me drinking coffee" class="infopic" />
-                    <br />
-                    <figcaption class="caption">
-                        Having a coffee in Carcasonne
-                    </figcaption>
-                </figure>
-                <p>I'm a Stockport based developer in training</p>
-                <p>I want to do something technical, programming is the perfect fit</p>
-                <div>
-                    <p>By March 2023 I will be ready for my first developer role</p>
+        <div class="bg">
+        </div>
+        <section id="info">
+        <nav id="navs">
+            <ul id="navlinks">
+                <li class="list"><a href="aboutme.html" target="_blank">About Me</a></li>
+                <li class="list"><a href="cv.html" target="_blank">Curriculum Vitae</a></li>
+                <li class="list"><a href=#portfolio>Portfolio</a></li>
+            </ul>
+        </nav>
+            <h1 id="myname">James Sample</h1>
+            <p>Stockport Based Junior Developer</p>
+            <img id="profilepic" src="./images/image1.jpg" width="100px">
+            <div class="socials">
+                <a href="https://instagram.com/freecodecamp">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/school/free-code-camp/">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+            </div>
+        </section>
+        <section id="bottomhalf">
+            <div id="intro">
+                <h2>A Brief Introduction</h2>
+                <p is="intro">Morbi ut malesuada nisi. In sollicitudin blandit purus sagittis mattis. Nulla porttitor tincidunt dui ac gravida. Aenean molestie vulputate ante eget pellentesque. Integer auctor consectetur turpis ac semper. Proin lacinia massa augue, id malesuada quam pharetra at. Suspendisse ultricies, diam in auctor iaculis, massa arcu laoreet neque, id laoreet justo ligula eget diam. Etiam a scelerisque felis, sed euismod velit. Ut luctus est vitae laoreet consectetur.</p></div>
+            <hr></hr>
+            <div id="lang">
+                <h2>Languages</h2>
+                <img src="https://i.ibb.co/qm7bWhz/html5-logo-31819.png" alt="html5-logo-31819" border="0" width="60px">
+            </div>
+            <div id="portfolio">
+                <h2>Portfolio</h2>
+                <div class="projects">
+                    <img id="world" src="https://picsum.photos/100" alt="real world projects">
+                    <img id="bootcamp" src="https://picsum.photos/100" alt="bootcamp projects">
+                    <img id="training" src="https://picsum.photos/100" alt="training projects">
                 </div>
             </div>
         </section>
-            <section>
-                <h3>Qualities</h3>
-                <ol>
-                    <li>Resilience</li>
-                    <li>Positive Outlook</li>
-                    <li>Critical Thinking</li>
-                </ol>
-            </section>
-            <section>
-                <h3>Hobbies & Interests</h3>
-                <ul>
-                    <li>Exploring</li>
-                    <li>Cooking</li>
-                    <li>Formula 1</li>
-                </ul>
-            </section>
-            <figure>
-                <img src="./images/testpic.jpg" alt="James and Charlotte hiking" class="infopic" />
-                <br />
-                <figcaption class="caption">
-                    Hiking in the Abruzzo national park
-                </figcaption>
-            </figure>
-            <figure>
-                <img src="./images/image3.jpg" alt="running up that hill" class="infopic" />
-                <br />
-                <figcaption class="caption">
-                    Running up that hill
-                </figcaption>
-            </figure>
-            <figure>
-                <img src="./images/image2.jpg" alt="Old me" class="infopic" />
-                <br />
-                <figcaption class="caption">
-                    Me in the future?
-                </figcaption>
-            </figure>
-        </main>
-        <footer>2022 - <em>James Sample</em></footer>
+        <footer>
+            <p>Please feel free to contact me if you have any questions</p>
+        </footer>
+    
     </body>
-
 </html>
