@@ -50,7 +50,7 @@ body, html {
   position: relative;
   display: flex;
   background-image: url(https://i.ibb.co/BPN6hhZ/backgroundsat.jpg); 
-  height: 50%;
+  height: 60%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -81,7 +81,7 @@ body, html {
   color: black;
 }
 .list a:hover {
-  font-weight: bold;
+  color: rgb(127, 127, 230);
 }
 
 .list a::after {
@@ -109,19 +109,60 @@ body, html {
   max-width: 40%;
 }
 
-#socials {
-  display: block;
-  margin: auto;
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 2rem;
+  margin-top: 0.2em;
+  gap: 0.5em;
 }
 
-.fab {
-  
-  width: 10%;
+.socials i {
+  color:rgba(177, 13, 13, 1);;
 }
 
+.socials i:hover {
+  color:rgb(41, 43, 180);;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+}
+
+#contact h3 {
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 2em;
+  text-align: center;
+  border: 1px solid rgba(240, 240, 240, 1);
+  border-radius: 5%;
+  padding: 0.5em;
+  margin: 10px;
+}
+
+#contact h3:hover {
+  background-color: rgba(240, 240, 240, 1);
+}
 
 h2 {
   text-align: center;
   padding-top: 1em;
   font-size: 2em;
+}
+
+#bottomhalf {
+  position: relative;
+  margin-top: 5em;
+}
+
+#techs {
+  font-size: 4em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.5em;
+  margin-top: 0.2em;
+  color:rgba(177, 13, 13, 1);
 }
