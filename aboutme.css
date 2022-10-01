@@ -29,6 +29,12 @@ nav {
   padding-bottom: 0;
 }
 
+#navbar ul {
+  display: block;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
 #navbar a {
   display: block;
   padding: 10px 30px;
@@ -67,15 +73,6 @@ nav {
   overflow-x: hidden;
 }
 
-@media only screen and (max-width: 815px){
-#main-doc {
-    position: relative;
-    display: block;
-    margin-left: 0px;
-    margin-top: 270px;
-}
-}
-
 #main-doc {
   position: absolute;
   margin-left: 310px;
@@ -91,3 +88,32 @@ section header {
   font-size: 2rem;
   padding-bottom: 10px
 }
+
+@media only screen and (max-width: 815px){
+  #navbar {
+    display: block;
+    max-height: 30%;
+    width: 100%;
+    position: relative;
+    border: 0;
+  }
+
+  #navbar header {
+    font-size: 2em;
+  }
+
+  #navbar ul {
+    border: 1px solid black;
+  }
+
+  #navbar li {
+    text-align: center;
+  }
+  
+  #main-doc {
+      position: relative;
+      display: block;
+      margin-left: 0px;
+      margin-top: 130px;
+  }
+  }
